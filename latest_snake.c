@@ -73,6 +73,7 @@ void over(int x, int y, int len)
     printf("%cScore : %d   ", 179, len - 1);
     while (getch() != 13)
         ;
+    system("cls");
     exit(0);
 }
 
